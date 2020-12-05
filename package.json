@@ -1,11 +1,12 @@
 {
-  "name": "helper",
-  "version": "0.0.1",
+  "name": "omar-helper-js",
+  "version": "0.7.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "omar atef",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/OmarYuusf/Helper"
 }

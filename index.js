@@ -33,12 +33,12 @@ const paginateIt = async (page, limit, model) => {
 
 const handler = {
   sort: (sortQuery) => {
-    if (sortQuery) {
-      return sortQuery.select.split(",").join(" ");
+    if (sortQuery.sort) {
+      return sortQuery.sort.split(",").join(" ");
     }
   },
   select: (selectQuery) => {
-    if (selectQuery) {
+    if (selectQuery.select) {
       return selectQuery.select.split(",").join(" ");
     }
   },
